@@ -1,0 +1,66 @@
+*{
+    font-family: "Lato", sans-serif;
+}
+.nav-item{
+    font-size:20px;
+    font-weight: 550;
+    margin-left: 20%;
+}
+
+#footer a:hover{
+    background-color: rgb(10, 10, 10);
+    border-radius: 50%;
+}
+#skill-container{
+    
+    column-gap:4rem; 
+    margin-top: 2rem;
+
+} 
+#skill-img img{
+   width: 90%;
+}
+
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 0;
+}
+.bar-container h3{
+    margin: 0;
+}
+.bar-container span{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.base-bar{
+    width: 100%;
+    background-color: black;
+    height: 0.5rem;
+    position:absolute;
+    border-radius:0.5rem;
+    bottom:0px;
+}
+#html-bar{
+    background-color: rgb(151, 46, 46);;
+    width:100%;
+}
+#css-bar{
+background-color: rgb(151, 46, 46);;
+width: 88%;
+}
+#bootstrap-bar{
+    background-color: rgb(151, 46, 46);;
+    width:78%;
+}
+#js-bar{
+    background-color: rgb(151, 46, 46);;
+    width:60%;
+}
+#python-bar{
+    background-color: rgb(151, 46, 46);;
+    width:70%;
+}
+
